@@ -1,0 +1,12 @@
+# Original iClassic menu, header, battery and playback indicators.
+%Vi(-,0,29,240,331,1)%Vf(000000)%Vb(FFFFFF)
+%?cs<%Vd(t)|%Vd(n)|%Vd(n)|%Vd(n)|%Vd(n)>
+%Vl(t,3,0,171,21,2)%Vf(000000)
+%s%al iPod
+%xl(B,/sdcard/.rockbox/wps/iClassic/Battery.bmp,0,0,24)
+%V(201,6,37,16,-)
+%?bp<%?bc<%t(1.0)%xd(Ba);%t(1.0)%xd(Bb)|%xd(Bc)>|%?bl<%xd(Bd)|%xd(Bd)|%xd(Be)|%xd(Bf)|%xd(Bg)|%xd(Bh)|%xd(Bi)|%xd(Bj)|%xd(Bk)|%xd(Bl)|%xd(Bm)|%xd(Bn)|%xd(Bo)|%xd(Bp)|%xd(Bq)|%xd(Br)|%xd(Bs)|%xd(Bt)|%xd(Bu)|%xd(Bv)|%xd(Bw)|%xd(Bx)||>>
+%xl(h,/sdcard/.rockbox/wps/iClassic/Hold Icon.bmp,0,1)
+%xl(P,/sdcard/.rockbox/wps/iClassic/Playing Status.bmp,0,0,4)
+%V(177,4,24,19,-)
+%?mh<%xd(h)|%?mp<|%xd(Pa)|%xd(Pb)|%xd(Pc)|%xd(Pd)|%xd(Pa)|%xd(Pb)|%xd(Pa)|%xd(Pb)>>
